@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/wiremock-donations"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "title": "Mr",
+        "firstName": "David",
+        "lastName": "Jane",
+        "sortCode": "20-20-09",
+        "accountNumber": 124343445,
+        "donationAmount": 24.560
+      },
+      {
+        "title": "Mr",
+        "firstName": "David",
+        "lastName": "Goodman",
+        "sortCode": "20-20-09",
+        "accountNumber": 51887654,
+        "donationAmount": 84.560
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
