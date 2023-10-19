@@ -1,6 +1,6 @@
 # Spring Boot Example
 
-`/GET /POST /PUT /DELETE` APIs for managing donations.
+`/GET /POST ` APIs for managing donations.
 
 ## Tech stack
 
@@ -15,7 +15,6 @@
 * Junit5, AssertJ
 * Maven
 * Docker
-* Github Actions - for CI/CD, see `.github` folder and `Actions` tab on this page
 
 ## Prerequisites
 
