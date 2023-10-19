@@ -1,4 +1,4 @@
-# Spring Boot Example
+# Spring Boot Microservice (Rest Api to create and retreience donation)
 
 `/GET /POST ` APIs for managing donations.
 
