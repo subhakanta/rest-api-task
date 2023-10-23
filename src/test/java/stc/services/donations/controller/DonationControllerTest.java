@@ -105,8 +105,8 @@ class DonationControllerTest {
                     .contentType(APPLICATION_JSON)
                     .body(BodyInserters.fromValue(Map.of(
                             "title", "Mr",
-                            "lastName", "Mr",
-                            "firstName", "new title",
+                            "lastName", "Das",
+                            "firstName", "Subhakanta",
                             "sortCode", "45-02-65"
                     )))
                     .exchange()

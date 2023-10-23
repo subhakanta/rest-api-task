@@ -25,6 +25,11 @@ public class DonationController {
 
     private final DonationService donationService;
 
+    /**
+     * Method to get all the donation details present in the application from the
+     * database
+     * @return Donation response object having list of reponses.
+     */
     @GetMapping(produces = APPLICATION_JSON_VALUE)
     public DonationsResponse getDonations() {
         log.info("getting all Donations");
@@ -32,6 +37,14 @@ public class DonationController {
         return donationService.getDonations();
     }
 
+    /**
+     * Method to add the donation details that comes from the client into the
+     * 	database
+     *
+     * @param createDonationRequest object which contains the request attributes for
+     * 	adding donation details in the application
+     * @return donation as a response entity.
+     */
 
     @PostMapping(consumes = APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
     @ResponseStatus(CREATED)
