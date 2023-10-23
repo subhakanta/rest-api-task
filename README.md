@@ -1,4 +1,4 @@
-# Spring Boot Microservice (Rest Api to create and retreience donation)
+# Spring Boot Microservice (Rest Api to create and retrieve donation)
 
 `/GET /POST ` APIs for managing donations.
 
