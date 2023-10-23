@@ -83,8 +83,15 @@ curl -X POST 'localhost:8081/donations' \
 -u "donation-user:donation-password-which-should-be-kept-in-a-secret-place-and-injected-when-application-is-deployed" \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "title": "some title",
-    "description": "some description"
+
+  "id": 0,
+  "title": "string",
+  "firstName": "string",
+  "lastName": "string",
+  "sortCode": "string",
+  "accountNumber": 0,
+  "donationAmount": 0
+
 }'
 ```
 
