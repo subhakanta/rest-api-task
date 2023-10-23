@@ -77,12 +77,6 @@ curl 'localhost:8081/donations' \
 -u "donation-user:donation-password-which-should-be-kept-in-a-secret-place-and-injected-when-application-is-deployed"
 ```
 
-* GET /donations/{donation_id}
-```
-curl 'localhost:8081/donations/15' \
--u "donation-user:donation-password-which-should-be-kept-in-a-secret-place-and-injected-when-application-is-deployed"
-```
-
 * POST /donations
 ```
 curl -X POST 'localhost:8081/donations' \
